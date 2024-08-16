@@ -1,0 +1,31 @@
+.header h1 {
+    /* Font */
+    font-family: "Matemasie", sans-serif;
+    font-size: 40px;
+    color:blueviolet;
+
+    /* Position */
+    display: flex;
+    justify-content: center;
+}
+
+.header div {
+    /* Font */
+    color: white;
+
+    /* Position */
+    display: flex;
+    margin-left: 200px;
+    gap: 120px;
+}
+
+.header h3 {
+    transition: border-bottom 0.3s linear;
+    padding-bottom: 8px;
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+.header h3:hover {
+    border-bottom: 2px solid blueviolet;    
+}

@@ -1,7 +1,5 @@
-.App {
-  font-family: "Matemasie", sans-serif;
-}
-
 body {
-  background-color:black; /* Replace with your desired color */
+  font-family: "Times New Roman", Times, serif; 
+  background-color:black;
+  cursor: url('/public/images/cursor.png'), auto;
 }

@@ -1,16 +1,62 @@
-.header h1 {
+/* components/header.css */
+
+.header {
+    /* Position */
+    padding-top: 10px;
+}
+
+.row-1 {
+    /* Position */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    margin-bottom: 0px;
+}
+
+
+
+/* roaa khaled */
+.row-1 h1 {
     /* Font */
     font-family: "Matemasie", sans-serif;
     font-size: 40px;
-    color:blueviolet;
-
-    /* Position */
-    display: flex;
-    justify-content: center;
+    width: fit-content;
+    /* Design */
+    color: blueviolet;
 }
 
-.header div {
+.email {
+    height: fit-content;
+    margin-left: 290px;
+    margin-right: 100px;
+
+}
+
+
+
+/* rkaledx@gmail.com */
+.row-1 span {
     /* Font */
+    font-family: "Times New Roman", Times, serif;
+
+    /* Design */
+    color: white;
+    font-size: 20px;
+}
+
+.row-1 i {
+    /* Position */
+    margin-right: 10px;
+    /* Design */
+    font-size: 20px;
+    color: blueviolet;
+    text-transform: none;
+
+}
+
+.row-2 {
+    /* Design */
     color: white;
 
     /* Position */
@@ -19,13 +65,13 @@
     gap: 120px;
 }
 
-.header h3 {
+.row-2 h3 {
+    /* Design */
     transition: border-bottom 0.3s linear;
     padding-bottom: 8px;
-    font-family: "Times New Roman", Times, serif;
-
 }
 
-.header h3:hover {
-    border-bottom: 2px solid blueviolet;    
+.row-2 h3:hover {
+    /* Design */
+    border-bottom: 2px solid blueviolet;
 }

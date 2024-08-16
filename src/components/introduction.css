@@ -1,0 +1,35 @@
+/* components/introduction.css */
+
+
+
+.portrait-photo {
+    width: 500px;
+    display: block;
+    float: right;
+    margin-right: 80px;
+}
+
+.Main-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.sub-section {
+    border: 2px solid red;
+    width: 750px;
+    color: white;
+    height: 500px;
+    float: left;
+    margin-left: 100px;
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.sub-section h1{
+    font-size: 70px;
+
+}

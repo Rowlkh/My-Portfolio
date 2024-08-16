@@ -20,10 +20,11 @@
 .row-1 h1 {
     /* Font */
     font-family: "Matemasie", sans-serif;
-    font-size: 40px;
+    font-size: 45px;
     width: fit-content;
+    
     /* Design */
-    color: blueviolet;
+    color:white;
 }
 
 .email {
@@ -50,7 +51,7 @@
     margin-right: 10px;
     /* Design */
     font-size: 20px;
-    color: blueviolet;
+    coloR:white;
     text-transform: none;
 
 }
@@ -73,5 +74,5 @@
 
 .row-2 h3:hover {
     /* Design */
-    border-bottom: 2px solid blueviolet;
+    border-bottom: 1px solid white;
 }

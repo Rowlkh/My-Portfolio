@@ -6,12 +6,22 @@ import './introduction.css';
 function introduction() {
     return (
         <section className='Main-section'>
-            <section className='sub-section'>
-                <h1>Hello! </h1>
-                <h3>I am Roaa Khaled </h3>
-                <h3>a third year computer science student</h3>
-            </section>
-
+            <div>
+                <section className='sub-section'>
+                    <span className='hello'>Hello! </span>
+                    {/*  <span>I am Roaa Khaled </span>
+                <br></br>
+                <span>a third year computer science student</span> */}
+                    <p>velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                        sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </section>
+                <div className='sub-section1'>
+                    <button className="connect-button">
+                        Let's Connect !
+                    </button>
+                </div>
+            </div>
             <img src='/images/Portrait_Photo.png' alt="Roaa Khaled" className="portrait-photo" />
         </section>
     );

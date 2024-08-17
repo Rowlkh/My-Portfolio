@@ -11,7 +11,7 @@ function Header() {
                 <div className="email">
                     <a href="mailto:rkhaledx@gmail.com">
                         <i className="fas fa-envelope"></i>
-                        <span >rkhaledx@gmail.com</span>
+                        <span >Rkhaledx@gmail.com</span>
                     </a>
                 </div>
 

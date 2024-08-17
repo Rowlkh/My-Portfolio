@@ -1,7 +1,7 @@
 body {
   font-family: "Times New Roman", Times, serif; 
   background-color:black;
-  cursor: url('/public/images/cursor.png'), auto;
+  cursor: url('/public/images/cursor_white.png'), auto;
   position: relative;
   width: 100%;
   height: 100vh;

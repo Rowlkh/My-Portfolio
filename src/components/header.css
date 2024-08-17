@@ -10,8 +10,6 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    margin-bottom: 20px;
-    margin-bottom: 0px;
 }
 
 
@@ -29,7 +27,7 @@
 
 .email {
     height: fit-content;
-    margin-left: 290px;
+    margin-left: 270px;
     margin-right: 100px;
 
 }
@@ -39,23 +37,32 @@
 /* rkaledx@gmail.com */
 .row-1 span {
     /* Font */
-    font-family: "Times New Roman", Times, serif;
-
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
     /* Design */
     color: white;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .row-1 i {
     /* Position */
-    margin-right: 10px;
-    /* Design */
-    font-size: 20px;
-    coloR:white;
-    text-transform: none;
+    margin-right: 15px;
 
+    /* Design */
+    font-size: 16px;
+    coloR:white;
+}
+.row-1 a
+{
+    text-decoration: none;
+    cursor: url('/public/images/cursor_black.png'), auto;
 }
 
+.row-1 a:hover
+{
+    border-bottom: 2px solid white;
+}
 .row-2 {
     /* Design */
     color: white;
@@ -69,10 +76,11 @@
 .row-2 h3 {
     /* Design */
     transition: border-bottom 0.3s linear;
-    padding-bottom: 8px;
 }
 
 .row-2 h3:hover {
     /* Design */
     border-bottom: 1px solid white;
+    cursor: url('/public/images/cursor_black.png'), auto;
+
 }

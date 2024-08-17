@@ -1,35 +1,80 @@
 /* components/introduction.css */
 
-
-
 .portrait-photo {
-    width: 500px;
-    display: block;
+    /* Position */
     float: right;
     margin-right: 80px;
+    display: block;
+
+    /* Design */
+    width: 500px;
 }
 
 .Main-section {
+    /* Position */
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     gap: 100px;
 }
 
 .sub-section {
-    border: 2px solid red;
-    width: 750px;
-    color: white;
-    height: 500px;
+    /* Position */
     float: left;
     margin-left: 100px;
+
+    /* Design */
+    width: 700px;
+    color: white;
+    height: auto;
+
+    /* Font */
     font-family: "DM Serif Text", serif;
     font-weight: 400;
     font-style: italic;
 }
 
-.sub-section h1{
+.sub-section .hello {
     font-size: 70px;
+}
 
+.sub-section p {
+    font-size: 30px;
+}
+
+.connect-button {
+    /* Font */
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: "DM Serif Text", serif;
+    font-style: italic;
+
+    /* Position */
+    position: relative;
+    margin-left: 100px;
+
+    /* Design */
+    cursor: url('/public/images/cursor_black.png'), auto;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    width: 220px;
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 0px 0px 0px 2px #1a1a1a inset;
+}
+
+.connect-button::before {
+    /* Design */
+    background-color: blueviolet;
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    z-index: -1;
 }

@@ -36,7 +36,13 @@
 }
 
 .sub-section .hello {
-    font-size: 70px;
+    font-size: 48px;
+/*     font-family: "Matemasie", sans-serif;
+ */    width: fit-content;
+/*  font-family: "Gravitas One", serif;
+ */
+ font-family: "Seymour One", sans-serif;
+
 }
 
 .sub-section p {

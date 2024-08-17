@@ -17,19 +17,20 @@
 /* roaa khaled */
 .row-1 h1 {
     /* Font */
-    font-family: "Matemasie", sans-serif;
-    font-size: 45px;
+    font-family: "Rampart One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     width: fit-content;
-    
+
     /* Design */
-    color:white;
+    color: white;
+    font-size: 55px;
 }
 
 .email {
     height: fit-content;
-    margin-left: 270px;
+    margin-left: 325px;
     margin-right: 100px;
-
 }
 
 
@@ -51,18 +52,18 @@
 
     /* Design */
     font-size: 16px;
-    coloR:white;
+    coloR: white;
 }
-.row-1 a
-{
+
+.row-1 a {
     text-decoration: none;
     cursor: url('/public/images/cursor_black.png'), auto;
 }
 
-.row-1 a:hover
-{
+.row-1 a:hover {
     border-bottom: 2px solid white;
 }
+
 .row-2 {
     /* Design */
     color: white;
